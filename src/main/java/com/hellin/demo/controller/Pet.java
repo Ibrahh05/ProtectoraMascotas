@@ -39,7 +39,8 @@ public class Pet {
     public void setName(String name) {
         this.name = name;
     }
-
+    
+    
     private String name;
     /** 
      * @return LocalDate
@@ -85,4 +86,19 @@ public class Pet {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    /**
+     *@return boolean
+     */
+
+    public Boolean getAdopt() {
+        return adopt;
+    }
+    /**
+     *@param adopt
+     */
+    public void setAdopt(Boolean adopt) {
+        this.adopt = adopt;
+    }
+    private boolean adopt;
 }
